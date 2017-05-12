@@ -1,0 +1,3 @@
+g++ -DHAVE_INTTYPES_H -DHAVE_NETINET_IN_H -Wall -I/usr/local/include/thrift *.cpp -L/usr/local/lib -lthrift -o something
+g++ -DHAVE_CONFIG_H -DHAVE_INTTYPES_H -DHAVE_NETINET_IN_H -Wall -I/opt/program/thrift-0.9.1/lib/cpp/src/thrift -I/opt/program/thrift-0.9.1/lib/cpp/src/thrift  -I/usr/include *.cpp -L/usr/local/lib -lthrift -o something
+g++ -DHAVE_CONFIG_H -I. -I../.. -I../../lib/cpp/src/thrift -I/usr/include -I./src -Wall -g -O2 -MT TBase64Utils.lo -MD -MP -MF .deps/TBase64Utils.Tpo -c src/thrift/protocol/TBase64Utils.cpp  -fPIC -DPIC -o .libs/TBase64Utils.o
